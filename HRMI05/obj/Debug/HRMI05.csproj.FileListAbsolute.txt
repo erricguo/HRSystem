@@ -1,0 +1,4 @@
+L:\Visual Studio 2015\Projects\HR System\HRMI05\obj\Debug\HRMI05.csprojResolveAssemblyReference.cache
+L:\Visual Studio 2015\Projects\HR System\HRMI05\obj\Debug\HRMI05.HRMI05F.resources
+L:\Visual Studio 2015\Projects\HR System\HRMI05\obj\Debug\HRMI05.csproj.GenerateResource.Cache
+L:\Visual Studio 2015\Projects\HR System\HRMI05\obj\Debug\HRMI05.dll.licenses

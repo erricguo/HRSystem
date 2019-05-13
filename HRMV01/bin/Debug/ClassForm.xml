@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassForm</name>
+    </assembly>
+    <members>
+        <member name="F:ClassForm.BanchForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClassForm.BanchForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClassForm.BanchForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ClassForm.BaseF">
+            <summary>
+            基礎底層
+            </summary>
+        </member>
+        <member name="F:ClassForm.BaseF.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClassForm.BaseF.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClassForm.BaseF.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.Filter">
+            <summary>
+            過濾條件
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.SQLStr">
+            <summary>
+            SQL
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.OrderBy">
+            <summary>
+            排序條件
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.GetDataEvent">
+            <summary>
+            數據存取方法
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.UpdateDataEvent">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.RowCount">
+            <summary>
+            總行數
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.PageNum">
+            <summary>
+            當前的資料頁
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.NewQuery">
+            <summary>
+            新查詢
+            </summary>
+        </member>
+        <member name="P:ClassForm.BaseGridCreator.cmdBuilder">
+            <summary>
+            新增修改刪除的指令
+            </summary>
+        </member>
+        <member name="M:ClassForm.BaseProxy.#ctor">
+            <summary>
+            构造函数初始化服务代理
+            </summary>
+        </member>
+        <member name="M:ClassForm.BaseProxy.Close">
+            <summary>
+            释放当前的代理类
+            </summary>
+        </member>
+        <member name="F:ClassForm.ConfirmForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClassForm.ConfirmForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClassForm.ConfirmForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ClassForm.DTableGridCreator.#ctor(DevExpress.XtraGrid.GridControl)">
+            <summary>
+            構造函數
+            </summary>
+        </member>
+        <member name="M:ClassForm.DTableGridCreator.GridCreator_CustomDrawCell(System.Object,DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs)">
+            <summary>
+            grid下拉事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ClassForm.DTableGridCreator.PrepareData">
+            <summary>
+            獲取前兩頁數據
+            </summary>
+        </member>
+        <member name="M:ClassForm.DTableGridCreator.GetData">
+            <summary>
+            即時的載入資料函數
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:ClassForm.F2Form.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClassForm.F2Form.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClassForm.F2Form.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ClassForm.MsgForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClassForm.MsgForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClassForm.MsgForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ClassForm.ProductProxy.GetDataList(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32@,System.Boolean,System.String)">
+            <summary>
+            獲取產品清單
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="F:ClassForm.ProgressForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClassForm.ProgressForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClassForm.ProgressForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ClassForm.Properties.Resources">
+            <summary>
+              用於查詢當地語系化字串等的強類型資源類別。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強類型資源類別的資源查閱。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.Checked1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.cnacel">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.delfile">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.editfile">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.first">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.Grayed1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.last">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.newfile">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.next">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.ok">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.print">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.prior">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.save">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.search">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="P:ClassForm.Properties.Resources.Unchecked1">
+            <summary>
+              查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+            </summary>
+        </member>
+        <member name="F:ClassForm.QueryForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClassForm.QueryForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClassForm.QueryForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ClassForm.RootForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ClassForm.RootForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ClassForm.RootForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
